@@ -33,7 +33,7 @@
 
 &nbsp;
 
-#### &emsp;工厂方法模式
+#### &emsp;抽象工厂模式
 
 &emsp;&emsp;&emsp;&emsp;**定义**：
 
