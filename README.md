@@ -1,9 +1,11 @@
-# 设计模式
+设计模式
+
 ### 工厂模式
 
 #### 简单工厂模式
 
 **定义**：定义一个用于创建对象的接口。 
+
 **组成**：
 
 * **工厂类角色**：这是本模式的核心，含有一定的商业逻辑和判断逻辑，用来创建产品；
@@ -11,13 +13,14 @@
 * **抽象产品角色**：它一般是具体产品继承的父类或者实现的接口；         
 * **具体产品角色**：工厂类所创建的对象就是此角色的实例，在java中由一个具体类实现。
 
-[Java Example]: https://github.com/fatiaoyezi/design_model/tree/master/src/factory/simple_factory
+[Java Example](https://github.com/fatiaoyezi/design_model/tree/master/src/factory/simple_factory )
 
 
 
 #### 工厂方法模式
 
 **定义**：工厂可以被子类工厂继承，创建实例交给不同的子工厂 。
+
 **组成**：
 
 - **抽象工厂角色**： 是具体工厂角色必须实现的接口或者必须继承的父类，在Java中它由抽象类或者接口来实现；
